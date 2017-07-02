@@ -61,7 +61,14 @@ const inquiries = function() {
                         console.log(`ordered product: ${res.product_name}`);
                         console.log(`units ordered ${answer.quantity}`);
                         console.log('order placed');
+                        
+                //updates mysql database to reflect user order
+                        let updatedStock = res.stock_quantity-answer.quantity;
+                        connection.query('UPDATE products SET ? WHERE ?',
+                            [{stock_quantity: updatedStock},{item_id: answer.id}]);
+                        console.log(`remaining stock: ${updatedStock}`)
                         console.log();
+
                     }else if (res.item_id == answer.id && answer.quantity > res.stock_quantity) {
                     	console.log('not enough in stock')
                     }
