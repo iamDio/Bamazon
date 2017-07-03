@@ -71,10 +71,7 @@ const inquiries = function() {
                         console.log(`remaining stock: ${updatedStock}`)
                         console.log(`Total Cost: $${total}`);
 
-                    }else if(answer.id != res.item_id){
-                        console.log('Product not found. Please select a different product');
-                    }
-                    else if (res.item_id == answer.id && answer.quantity > res.stock_quantity) {
+                    }else if (res.item_id == answer.id && answer.quantity > res.stock_quantity) {
                     	console.log('not enough in stock')
                     }
                 })
