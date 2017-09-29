@@ -1,4 +1,4 @@
-# Bamazon
+# Server Side Shopper
 
 **NOTE: This application was built using JavaScript, Node.js, and MySql. Refer to the package.json file for a list of dependencies. 
 
