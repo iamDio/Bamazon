@@ -18,7 +18,6 @@ Bamazon is a server side application which allows the user to interact with a My
   <li>Open terminal/command line and git clone https://github.com/iamDio/Server-Side-Shopper.git </li>
   <li>node server.js </li>
   <li>Running server.js will present the user with a list of all the items in the database. Decided which one to purchase by using the product id. </li>
-
-  
+  <li> Select quantity you wish to purchase and confirm your order. This will show you the Total Cost, and the remaining amount of items in stock. </li>  
 ![bamazon](https://user-images.githubusercontent.com/19352823/31102827-d3888280-a7a1-11e7-95e8-3f4f362ea636.gif)
 
