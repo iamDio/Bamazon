@@ -13,5 +13,12 @@ Bamazon is a server side application which allows the user to interact with a My
 
 <p>  The "manager" has the ability to view all the items in the database, and add new items available for sale. The manager also has the ability to update the quantity of items in stock for existing products in the database. </p>
 
+<h2> HOW TO RUN </h2>
+  <ol>
+  <li>Open terminal/command line and git clone https://github.com/iamDio/Server-Side-Shopper.git </li>
+  <li>node server.js </li>
+  <li>Running server.js will present the user with a list of all the items in the database. Decided which one to purchase by using the product id. </li>
+
+  
 ![bamazon](https://user-images.githubusercontent.com/19352823/31102827-d3888280-a7a1-11e7-95e8-3f4f362ea636.gif)
 
