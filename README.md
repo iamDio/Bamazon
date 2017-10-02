@@ -12,3 +12,6 @@ Bamazon is a server side application which allows the user to interact with a My
 <h2>MANAGER MODE:</h2>
 
 <p>  The "manager" has the ability to view all the items in the database, and add new items available for sale. The manager also has the ability to update the quantity of items in stock for existing products in the database. </p>
+
+![bamazon](https://user-images.githubusercontent.com/19352823/31102827-d3888280-a7a1-11e7-95e8-3f4f362ea636.gif)
+
